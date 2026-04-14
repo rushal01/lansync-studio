@@ -4,9 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "concurrently -k \"vite\" \"wait-on tcp:5173 && cross-env VITE_DEV_SERVER_URL=http://localhost:5173 electron electron/main.mjs\"",
-    "build": "tsc -b && vite build",
-    "build:main": "node -e \"require('fs').cpSync('electron','dist-electron',{recursive:true})\"",
+    "dev": "node init && concurrently -k \"vite\" \"wait-on tcp:5173 && cross-env VITE_DEV_SERVER_URL=http://localhost:5173 electron electron/main.mjs\"",
+    "build": "node init && tsc -b && vite build",
+    "build:main": "node init && node -e \"require('fs').cpSync('electron','dist-electron',{recursive:true})\"",
     "bundle": "pnpm build && pnpm build:main && electron-builder",
     "dist:win": "pnpm build && pnpm build:main && electron-builder --win",
     "dist:mac": "pnpm build && pnpm build:main && electron-builder --mac",
