@@ -4,8 +4,8 @@
   "description": "",
   "scripts": {
     "test": "pnpm -r test",
-    "build": "pnpm -r build",
-    "dev": "pnpm --filter @pcconnector/desktop dev",
+    "build": "node init && pnpm -r build",
+    "dev": "node init && pnpm --filter @pcconnector/desktop dev",
     "lint": "pnpm -r lint"
   },
   "keywords": [],
