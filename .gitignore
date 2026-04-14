@@ -4,7 +4,8 @@ dist/
 out/
 build/
 coverage/
-.env
 .DS_Store
 *.log
 "@ | Set-Content .gitignore
+.pnpm-store/
+config.bat
