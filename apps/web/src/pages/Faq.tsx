@@ -1,3 +1,4 @@
+// FAQ page content
 interface QA {
   q: string
   a: string
