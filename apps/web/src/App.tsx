@@ -10,6 +10,7 @@ import { Security } from './pages/Security'
 import { Faq } from './pages/Faq'
 import './App.css'
 
+// Theme handling
 type Theme = 'light' | 'dark'
 
 function getInitialTheme(): Theme {

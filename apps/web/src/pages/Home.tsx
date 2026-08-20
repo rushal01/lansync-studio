@@ -1,3 +1,4 @@
+// Home page content
 import { useEffect, useState } from 'react'
 
 const GITHUB_RELEASE_BASE_URL = 'https://github.com/Jenish109/lansync-studio/releases/latest/download'

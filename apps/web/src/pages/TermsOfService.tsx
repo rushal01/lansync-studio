@@ -1,3 +1,4 @@
+// Terms of service page content
 export function TermsOfService() {
   return (
     <div className="policy-page">

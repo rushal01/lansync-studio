@@ -1,3 +1,4 @@
+// Privacy policy page content
 export function PrivacyPolicy() {
   return (
     <div className="policy-page">

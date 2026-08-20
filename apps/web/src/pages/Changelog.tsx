@@ -1,3 +1,4 @@
+// Changelog page content
 type EntryType = 'Feature' | 'Improvement' | 'Fix' | 'Performance'
 
 interface Entry {
