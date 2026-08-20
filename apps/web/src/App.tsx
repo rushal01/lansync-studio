@@ -1,3 +1,4 @@
+// Web app shell and route setup
 import { useEffect, useState } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { Layout } from './Layout'
