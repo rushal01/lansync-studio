@@ -1,3 +1,4 @@
+// Documentation page content
 const sections = [
   { id: 'prerequisites', label: 'Prerequisites' },
   { id: 'install', label: 'Install' },
